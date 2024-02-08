@@ -1,0 +1,106 @@
+/* everything */
+html {
+    background-image: linear-gradient(#595959, black);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+
+hr {
+    color: gray;
+    width: 88%;
+}
+
+audio {
+    display: hide;
+}
+
+/* navigation */
+.active {
+    color: #fff4d5;
+    background-color: #664200;
+    height: 100%;
+    display: block;
+}
+
+.navigation {
+    font: arial;
+    float: center;
+    margin: auto;
+    font-size: 10px;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    text-align: center;  
+    background-color: #282828;
+    justify-content: center; 
+}
+
+.navigation div {
+    background-color: #333333;
+    display: flex;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0;
+    display: inline;
+    padding: 0;
+    float: left;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li a {
+    display: block;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation li a:hover {
+    colour: white;
+    transition: 0.3s;
+    background-color: #111;
+}
+
+#js {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+/* main */
+.main {
+    background-color: #695346;
+    padding: 14px 16px 16px 14px;
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.main p a {
+    color: white;
+    text-align: left;
+}
+
+.main p {
+    text-align: left;
+    padding: 34px;
+}
